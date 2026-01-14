@@ -11,11 +11,8 @@ int main()
     for (int i = a; i <= b; i++) {
         if (i >= 1 && i <= 9)
         {
-            cout << words[i - 1] << endl;
+            cout << words[i - 1] << endl; 
         }
-        else if(i % 2 == 0){
-            cout << "Even" << endl;
-        }
-        else cout << "Odd" << endl;
+        else cout << "Enter number in one digit" << endl;
     }
 }
